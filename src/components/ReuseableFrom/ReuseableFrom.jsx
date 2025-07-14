@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ReuseableFrom = ({formtitle,handelsubmit,  submitbtn='Submit', children}) => {
+const ReuseableFrom = ({handelsubmit,  submitbtn='Submit', children}) => {
     const hendelevent = (e) =>{
         e.preventDefault();
         const data = {
